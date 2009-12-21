@@ -1,0 +1,30 @@
+#summary Details the the basics of a froth web application.
+
+= Background =
+
+Froth web applications are are developed using the typical ModelViewController paradigm that many cocoa as well as web developers are familiar with. Equally important as the library, is the procedure of development for the webApp. Following the standard mvc paradigm will insure that the web application builds and runs as expected.
+
+= Development Details =
+
+
+
+= Build Product Details =
+
+Each web application is built into a standard Cocoa style bundle with the prefix of .webApp. Like standard Cocoa application bundles, webApp bundles allow for the application to be self contained and easily distributed and launched. webApps bundles contain application specific css/js/and img content, as well as any other static content needed for the execution of the webApp. Shared resources are also possible by defining a global shared resource folder for the web app.
+
+Most of the configuration details for a webApp goes into it's Info.plist dictionary file. This information includes deployment information, host information as well as other needed runtime details. Other immutable application settings can either go in the Info.plist file or another plist (Ie DataSources.plist for Model db access info)
+
+*Bundle File Structure*
+
+{{{
+TheWebApp.webApp
+    /Contents
+        /{Platform}
+            /TheWebApp
+        /Resources
+            /(view templates go here)
+    /static
+        /css, js, img, ...
+}}}
+
+The static folder is specially treated by the server. For amazon/lighttpd deployments, the static folder does not get handled by the webapplication, rather it is served directly from lighttpd.
