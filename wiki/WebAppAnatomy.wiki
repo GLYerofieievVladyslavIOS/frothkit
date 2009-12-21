@@ -2,7 +2,7 @@
 
 = Background =
 
-Froth web applications are are developed using the typical ModelViewController paradigm that many cocoa as well as web developers are familiar with. Equally important as the library, is the procedure of development for the webApp. Following the standard mvc paradigm will insure that the web application builds and runs as expected.
+This document provides a basic description of a froth web application. For complete documentation details, uses should consult the official api documentation. Also the tutorial will provide a quick walkthrough of the procedure of web development with froth.
 
 = Development Details =
 
