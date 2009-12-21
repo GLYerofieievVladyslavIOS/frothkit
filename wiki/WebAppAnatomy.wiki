@@ -44,11 +44,11 @@ get mapped to _-(id)readAction:(WebRequest*)req_
 
 This allows for any number of actions to be implemented by simply formating the objc method name as
 
-{{ -(id)<pathname>Action:(WebRequest*)request; }}
+{{{ -(id)<pathname>Action:(WebRequest*)request; }}}
 
 *Basic Example*
 
-{{
+{{{
 @implementation WABlogController
 
 // GET ./blog/read/{index of artical as int}
@@ -65,7 +65,7 @@ This allows for any number of actions to be implemented by simply formating the 
 }
 
 @end
-}}
+}}}
 
 Web applications have a single WebApplication (or subclass) instance that handles requests and response processing as well as corro
 
