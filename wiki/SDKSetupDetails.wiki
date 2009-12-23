@@ -6,12 +6,16 @@ In order to make web application development as painless and fast as possible, f
 
 = Details =
 
-/Developer/FrothSDK
+*/Developer/FrothSDK*
+
 Contains the froth libraries, plugins, headers and tools for froth. The froth sdk sources will automatically build libfroth.so to this path so devs can checkout and modify new revisions and use those for web application projects.
 
-/Developer/Cocotron
+*/Developer/Cocotron*
+
 Contains cocotron tools for cross-platform compiling as well as platform interfaces that contain the linux/amazon libs needed to build libfroth and webapps for linux/amazon deployment.
 
 To install the cocotron tools, see http://www.cocotron.org
 A platform interface for linux/amazon froth ami should be placed under...
 /Developer/Cocotron/PlatformInterfaces/i386-ubuntu-linux and should include headers and lib folders.
+
+_TODO_
