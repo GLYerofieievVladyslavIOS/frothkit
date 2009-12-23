@@ -7,7 +7,7 @@ The frothkit Xcode project includes a Documentation target that will build and a
 
 = Details =
 
-To build the docset/documentation you will need to have and installation of doxygen. The easiest way to get doxegen is from here.
+To build the docset/documentation doxygen is needed. The easiest way to get doxegen is from here.
 
 http://www.stack.nl/~dimitri/doxygen/download.html
 
