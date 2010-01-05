@@ -18,4 +18,30 @@ To install the cocotron tools, see http://www.cocotron.org
 A platform interface for linux/amazon froth ami should be placed under...
 /Developer/Cocotron/PlatformInterfaces/i386-ubuntu-linux and should include headers and lib folders.
 
-_TODO_
+= Linux Deployment Paths =
+
+*/var/froth/apps/<deploy-config>/<name>.webApp*
+
+Web App bundle deployment location.
+
+*/var/froth/config/*
+
+Application preferences and lighttpd configurations.
+
+*/var/froth/shared/*
+
+Public shared httpd folder for all applications installed on machine. This is accessible from http://<host>/shared
+
+*/var/froth/data/*
+
+Application specific file data.
+
+For amazon amis. The /var/froth folder should be setup as a symbolic link to a mounted _Elastic Block Store_ to keep install webapps and application data persisted across ami reboots.
+
+*/usr/froth/bin*
+
+Contains froth workspace binaries and tools for managing applications.
+
+*/usr/froth/lib*
+
+Contains froth libraries and objc frameworks.
