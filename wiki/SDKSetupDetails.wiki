@@ -20,7 +20,7 @@ A platform interface for linux/amazon froth ami should be placed under...
 
 = Linux Deployment Paths =
 
-*/var/froth/apps/<deploy-config>/<name>.webApp*
+*/var/froth/apps/{deploy-config}/{name}.webApp*
 
 Web App bundle deployment location.
 
@@ -30,7 +30,7 @@ Application preferences and lighttpd configurations.
 
 */var/froth/shared/*
 
-Public shared httpd folder for all applications installed on machine. This is accessible from http://<host>/shared
+Public shared httpd folder for all applications installed on machine. This is accessible from http://{host}/shared
 
 */var/froth/data/*
 
