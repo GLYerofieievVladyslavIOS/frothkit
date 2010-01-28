@@ -157,7 +157,7 @@ OPEN MARKET HAS NO LIABILITY IN CONTRACT, TORT, NEGLIGENCE OR
 OTHERWISE ARISING OUT OF THIS SOFTWARE OR THE DOCUMENTATION.
 
 ----
- [http://code.google.com/p/btlsocket/ BTLSockets]
+[http://code.google.com/p/btlsocket/ BTLSockets]
 
 Copyright (c) 2007-2008 Michael Buckley
 
