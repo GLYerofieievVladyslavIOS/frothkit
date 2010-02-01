@@ -16,10 +16,6 @@ The quickest way to get started is to use an sdk installer availible from http:/
 
 Web App bundle deployment location.
 
-*/var/froth/config/*
-
-Application preferences and lighttpd configurations.
-
 */var/froth/shared/*
 
 Public shared httpd folder for all applications installed on machine. This is accessible from http://{host}/shared
