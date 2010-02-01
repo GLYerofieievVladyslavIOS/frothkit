@@ -32,4 +32,4 @@ Contains froth workspace binaries and tools for managing applications.
 
 */usr/froth/lib*
 
-Contains froth libraries and objc frameworks.
+Contains Froth, Foundation and other objc frameworks.
