@@ -2,7 +2,7 @@
 
 = Introduction =
 
-Frothkit provides the ability to setup multiple deployment modes of a single webapp. Developers can have beta, staging or any other version of their web app running on different or the same server using Xcode's Build Configurations and a Deployments.plist that should be included in the .webApp's Resources directory. The fmtool unix tool that is installed on the server uses the Deployments.plist configuration to provide configuration details to lighttpd. These details are essential for lighttpd to determine where static resources, as well as shared resources should for the given webapp.
+Frothkit provides the ability to setup multiple deployment modes of a single webapp. Developers can have beta, staging or any other version of their web app running on different or the same server using Xcode's Build Configurations and a Deployments.plist file. The fmtool cli that is installed on the server uses the Deployments.plist configuration to provide configuration details to lighttpd. These details are essential for lighttpd to determine where static resources, as well as shared resources are located and mapped to uris.
 
 == Details ==
 
@@ -13,4 +13,6 @@ Corresponding to the build configurations should be a "Deployment.plist" file th
   * Root - The root path for the webapp, for example if multiple web apps are sharing a single domain.
   * Port - A unique port number that the webapp will listen on. (for lighttpd)
   * Host - The domain name or regex string with multiple domains the webapp listens to.
-  * Disabled - (Optional Boolean) Allows for disabling a webapp.
+  * Disabled - (Optional Boolean) Allows for disabling a web app.
+
+Web app projects that are created using the "Web Application" template have most of these details already configured. All that needs to be set is the "FROTH_HOST/FROTH_IDENTITY" combination for the current active build configuration, as well as modifying the included Deployments.plist with domain and path information.
