@@ -2,7 +2,7 @@
 
 = Introduction =
 
-Frothkit provides the ability to setup multiple deployment modes of a single webapp. Developers can have beta, staging or any other version of their web app running on different or the same server using Xcode's Build Configurations and a Deployments.plist that should be included in the *.webApp's Resources directory. The fmtool unix tool that is installed on the server uses the Deployments.plist configuration to provide configuration details to lighttpd. These details are essential for lighttpd to determine where static resources, as well as shared resources should for the given webapp.
+Frothkit provides the ability to setup multiple deployment modes of a single webapp. Developers can have beta, staging or any other version of their web app running on different or the same server using Xcode's Build Configurations and a Deployments.plist that should be included in the .webApp's Resources directory. The fmtool unix tool that is installed on the server uses the Deployments.plist configuration to provide configuration details to lighttpd. These details are essential for lighttpd to determine where static resources, as well as shared resources should for the given webapp.
 
 = Details =
 
