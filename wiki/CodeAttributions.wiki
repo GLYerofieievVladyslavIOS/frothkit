@@ -1,4 +1,5 @@
 FrothKit includes portions of code from the following.
+#sidebar toc
 
 ----
 [http://mattgemmell.com/2008/05/20/mgtemplateengine-templates-with-cocoa MGTemplateEngine] code by [http://mattgemmell.com Matt Gammel]
