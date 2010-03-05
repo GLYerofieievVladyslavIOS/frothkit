@@ -1,4 +1,5 @@
 #summary Details on setting up deployment modes using Xcode build configurations and Deployments.plist
+#sidebar toc
 
 = Introduction =
 
