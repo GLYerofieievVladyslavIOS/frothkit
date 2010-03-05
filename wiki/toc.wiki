@@ -3,5 +3,6 @@
     * [SDKSetupDetails SDK Configuration]
     * [BuildingXcodeDocset Building API Documentation]
     * [WebAppAnatomy Anatomy of a webApp]
-  * [CodeAttributions Attributions]
+  * [http://www.frothkit.org Official Project Site]
   * [http://www.frothkit.org/shared/docs/FrothAPI.docset/html/ API Documentation]
+  * [CodeAttributions Attributions]
