@@ -1,4 +1,5 @@
 #summary How to setup sdk environment for froth development and deployment to amazon
+#sidebar toc
 
 = Introduction =
 
