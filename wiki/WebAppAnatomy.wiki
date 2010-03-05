@@ -1,4 +1,5 @@
 #summary Details the the basics of a froth web application.
+#sidebar toc
 
 = Background =
 
