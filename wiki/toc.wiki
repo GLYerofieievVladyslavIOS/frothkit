@@ -1,4 +1,4 @@
-  * [Background Background Info]
+  * [WebAppAnatomy Background Info]
     * [WebAppConfigurations App Deployments]
     * [SDKSetupDetails SDK Configuration]
     * [BuildingXcodeDocset Building API Documentation]
