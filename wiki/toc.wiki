@@ -1,8 +1,8 @@
+  * [http://www.frothkit.org Official Project Site]
+  * [http://www.frothkit.org/shared/docs/FrothAPI.docset/html/ API Documentation]
+  * [CodeAttributions Attributions] 
   * Background Info
     * [WebAppConfigurations App Deployments]
     * [SDKSetupDetails SDK Configuration]
     * [BuildingXcodeDocset Building API Documentation]
     * [WebAppAnatomy Anatomy of a webApp]
-  * [http://www.frothkit.org Official Project Site]
-  * [http://www.frothkit.org/shared/docs/FrothAPI.docset/html/ API Documentation]
-  * [CodeAttributions Attributions]
