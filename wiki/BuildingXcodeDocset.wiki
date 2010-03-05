@@ -1,4 +1,5 @@
 #summary Building and installing froth api docs as a xcode docset.
+#sidebar toc
 
 = Introduction =
 
