@@ -16,7 +16,10 @@ The older xcode environment variables wont work.
 Also the Build Configuration's 'Other Linker Flags' (or OTHER_LDFLAGS) should include the following.
 
 {{{
--lm -ldl -lpthread -lssl -lcrypto -lnsl -lcrypt -lmysqlclient_r -lcom_err -lidn -lsasl2 -lresolv -llber-2.4 -lldap_r-2.4 -lgpg-error -lgcrypt -ltasn1 -lkeyutils -lgnutls -lkrb5support -lkrb5 -lgssapi_krb5 -lk5crypto -lcurl -lxml2 -lpcre -lz -lutil -lpython2.6 -luuid -lrt -levent -lmemcached -Wl,-rpath=$ORIGIN
+-lm -ldl -lpthread -lssl -lcrypto -lnsl -lcrypt -lmysqlclient_r -lcom_err 
+-lidn -lsasl2 -lresolv -llber-2.4 -lldap_r-2.4 -lgpg-error -lgcrypt -ltasn1 -lkeyutils -lgnutls 
+-lkrb5support -lkrb5 -lgssapi_krb5 -lk5crypto -lcurl -lxml2 -lpcre -lz -lutil -lpython2.6 
+-luuid -lrt -levent -lmemcached -Wl,-rpath=$ORIGIN
 }}}
 
 _Todo: More to come..._
