@@ -1,0 +1,14 @@
+#summary General Trouble Shooting.
+
+=== Upgrading webapp projects from older version to latest developer preview. ===
+Their are a number of changes between older versions of the sdk and the latest with regards to deployments. The best way to upgrade the project is to create a new web app using Xcode's project wizard, then move older sources to the new project.
+
+If the older project must be used, the biggest issue is with envronment variables in the Deploy Script build phase for the WebApp project. The script section between echo '=== BUILDING WEBAPP FOR DEPLOYMENT ====' must be changed to the following.
+
+{{{echo '===== BUILDING WEBAPP FOR DEPLOYMENT ====='
+rsync -avvz -e "ssh -i ${FROTH_IDENTITY}" ${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.webApp root@${FROTH_HOST}:/var/froth/apps/${CONFIGURATION}
+echo '========= DEPLOYMENT COMPLETE ============'}}}
+
+The older xcode environment variables wont work.
+
+_Todo: More to come..._
