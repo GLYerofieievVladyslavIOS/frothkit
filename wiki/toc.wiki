@@ -6,4 +6,4 @@
     * [SDKSetupDetails SDK Configuration]
     * [BuildingXcodeDocset Building API Documentation]
     * [WebAppAnatomy Anatomy of a webApp]
-    * [Trouble Shooting Deployments]
+    * [TroubleShootingDeployments Trouble Shooting Deployments]
