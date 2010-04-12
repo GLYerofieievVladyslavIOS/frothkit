@@ -5,9 +5,11 @@ Their are a number of changes between older versions of the sdk and the latest w
 
 If the older project must be used, the biggest issue is with environment variables in the Deploy Script build phase for the WebApp project. The script section between echo '=== BUILDING WEBAPP FOR DEPLOYMENT ====' must be changed to the following.
 
-{{{echo '===== BUILDING WEBAPP FOR DEPLOYMENT ====='
+{{{
+echo '===== BUILDING WEBAPP FOR DEPLOYMENT ====='
 rsync -avvz -e "ssh -i ${FROTH_IDENTITY}" ${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.webApp root@${FROTH_HOST}:/var/froth/apps/${CONFIGURATION}
-echo '========= DEPLOYMENT COMPLETE ============'}}}
+echo '========= DEPLOYMENT COMPLETE ============'
+}}}
 
 The older xcode environment variables wont work.
 
