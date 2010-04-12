@@ -1,4 +1,5 @@
 #summary General Trouble Shooting.
+#sidebar toc
 
 === Upgrading webapp projects from older version to latest developer preview. ===
 Their are a number of changes between older versions of the sdk and the latest with regards to deployments. The best way to upgrade the project is to create a new web app using Xcode's project wizard, then move older sources to the new project.
